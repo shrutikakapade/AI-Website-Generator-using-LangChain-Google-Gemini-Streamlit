@@ -123,6 +123,17 @@ source venv/bin/activate
     </ul>
 </div>
 
+<div class="box">
+    <h2>streamlit Application:</h2>
+
+
+
+
+https://github.com/user-attachments/assets/b42b525d-a156-4174-84d0-2954ea2d8fcd
+
+
+</div>
+
 <footer>
     <p>✨ Build websites faster with AI-powered automation</p>
 </footer>
