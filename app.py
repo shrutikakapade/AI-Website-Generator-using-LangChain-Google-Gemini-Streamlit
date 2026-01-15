@@ -16,7 +16,7 @@ if not GOOGLE_API_KEY:
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 st.set_page_config(
-    page_title="WebMint AI - Production Website Generator",
+    page_title="WebGenix - Production Website Generator",
     page_icon="🪄",
     layout="wide",
 )
@@ -225,7 +225,7 @@ st.markdown('<div class="glow-hero-overlay"></div>', unsafe_allow_html=True)
 # ---------- YOUR ORIGINAL LAYOUT ----------
 st.markdown("""
     <div class="header-premium">
-        <div class="logo-epic">WebMint AI</div>
+        <div class="logo-epic">WebGenix</div>
         <div class="status-elite">
             <span style="font-size:1.4em;">⚡</span>
             Enterprise Production Ready
@@ -236,16 +236,16 @@ st.markdown("""
         From Prompt to <span class="glow-highlight">Website,</span><br>Simplified
     </h2>
     <p class="subtitle-pro">
-        WebMint AI transforms natural language prompts into complete, responsive websites.
+        WebGenix transforms natural language prompts into complete, responsive websites.
         Describe your idea once and receive structured HTML, modern CSS, and clean JavaScript designed with smooth interactions, refined visuals, and consistent performance across devices.
-        Built to simplify website creation while maintaining modern design standards, WebMint AI helps you move from concept to implementation with clarity and precision.
+        Built to simplify website creation while maintaining modern design standards, WebGenix helps you move from concept to implementation with clarity and precision.
     </p>
 """, unsafe_allow_html=True)
 
 prompt = st.text_area(
     "",
     placeholder="""Describe your vision.🪄
-Outline the structure, visual direction, and experience you want. WebMint AI will intelligently translate your idea into a complete, responsive website.""",
+Outline the structure, visual direction, and experience you want. WebGenix will intelligently translate your idea into a complete, responsive website.""",
     height=260,
     label_visibility="collapsed",
     key="website_prompt"
